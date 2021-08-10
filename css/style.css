@@ -660,6 +660,9 @@ footer > div{
 
 @media (min-width:768px){
 
+    .nav-logo{
+        margin-left: 1rem;
+    }
 
     main .main-one-landing{
         display: flex;
