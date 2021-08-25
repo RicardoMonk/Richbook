@@ -201,7 +201,7 @@ nav{
 .nav-logo{
     width: 6rem;
     height: 6rem;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     /*border: white solid 1px;*/
     background-image: url(../imgs/rweb.png);
     background-size: auto;
