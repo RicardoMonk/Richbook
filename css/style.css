@@ -65,7 +65,7 @@ header{
     width: 100%;
     min-width: 320px;
     height: 8rem;
-    background-color: #698474;
+    background-color: #01D28E;
   /*background: rgba(255,255,255,0.2);
     box-shadow: 0 10px 20px rgba(0,0,0,0.05);
     backdrop-filter: blur(11px);
@@ -440,9 +440,10 @@ section .textux{
 }
 
 .btn-ver:hover{
-    color: var(--whi);
-    background-color: var(--black);
+    background: rgb(71,228,187);
+background: linear-gradient(346deg, rgba(71,228,187,1) 17%, rgba(1,210,142,1) 50%, rgba(118,179,157,1) 90%);
     transition: .3s;
+    border: none;
 }
 
 section div a{
