@@ -557,7 +557,7 @@ footer{
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 100vh;
+    height: 520px;
 
     background-color: var(--black);
 }
