@@ -557,9 +557,9 @@ footer{
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 480px;
+    height: 100vh;
 
-    background-color: #F6F078;
+    background-color: var(--black);
 }
 
 footer > div{
@@ -572,7 +572,7 @@ footer > div{
     min-width: 200px;
     max-width: 525px;
     height: 3rem;
-    border: var(--primary-color) solid 1px;
+    border: var(--whi) solid 1px;
     margin-top: 1rem;
 }
 
@@ -580,7 +580,7 @@ footer > div{
     align-self: center;
     width: 80%;
     height: 13rem;
-    border: var(--primary-color) solid 1px;
+    border: var(--whi) solid 1px;
     margin-top: 3rem;
 }
 
@@ -611,7 +611,7 @@ footer > div{
     align-self: center;
     font-size: 3rem;
     cursor: pointer;
-    color: var(--black);
+    color: var(--whi);
 
 }
 
@@ -632,6 +632,7 @@ footer > div{
     font-family: Helvetica, sans-serif;
     font-size: 1.1rem;
     text-align: center;
+    color: var(--whi);
 }
 
 @media (min-width:768px){
