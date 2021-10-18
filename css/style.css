@@ -65,7 +65,8 @@ header{
     width: 100%;
     min-width: 320px;
     height: 8rem;
-    background-color: #01D28E;
+    background: rgb(71,228,187);
+background: radial-gradient(circle, rgba(71,228,187,1) 17%, rgba(1,210,142,1) 50%, rgba(118,179,157,1) 90%);
   /*background: rgba(255,255,255,0.2);
     box-shadow: 0 10px 20px rgba(0,0,0,0.05);
     backdrop-filter: blur(11px);
@@ -234,7 +235,7 @@ nav{
 }
 
 .fa-heart:hover{
-    color: rgb(249, 252, 117);
+    color: var(--whi);
     cursor: pointer;
     transition: 0.5s;
 }
@@ -440,8 +441,8 @@ section .textux{
 }
 
 .btn-ver:hover{
-    background: rgb(71,228,187);
-background: linear-gradient(346deg, rgba(71,228,187,1) 17%, rgba(1,210,142,1) 50%, rgba(118,179,157,1) 90%);
+    background-color: var(--black);
+    color: var(--whi);
     transition: .3s;
     border: none;
 }
@@ -558,7 +559,7 @@ footer{
     min-width: 320px;
     height: 480px;
 
-    background-color: var(--tertiary-color);
+    background-color: #F6F078;
 }
 
 footer > div{
