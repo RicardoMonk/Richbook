@@ -87,7 +87,10 @@ nav{
 #burger-menu{
     width: 27px;
     height: 27px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 24px;
     cursor: pointer;
     position: relative;
     z-index: 2;
@@ -497,9 +500,7 @@ footer > div{
     .main-container{
         width: 100%;
         height: auto;
-        background-color: #e7c3c9;
         padding-top: 7.5rem;
-        border: var(--quaternary-color) solid 1px;
     }
     
     .main-container-one{
@@ -507,16 +508,13 @@ footer > div{
         flex-direction: column;
         width: 100%;
         height: auto;
-        border: var(--quaternary-color) solid 1px;
-        background-color: #f199a7 ;
     }
     
     .main-container-img{
         align-self: center;
         width: 100%;
         height: 20rem;
-        border: #f23557 solid 1px;
-        background-color: #fa5d77;
+        border: var(--black) solid 1px;
     }
     
     .main-container-text_box{
@@ -526,7 +524,7 @@ footer > div{
         margin-top: -4.6rem;
         margin-bottom: 3rem;
         font-family: Helvetica, sans-serif;
-        color: white;
+        color: var(--black);
     }
     
     .main-container-text_box h1{
@@ -540,12 +538,16 @@ footer > div{
         width: 100%;
         max-width: 120rem;
         height: auto;
-        flex-direction: column;
-        border: var(--quaternary-color) solid 1px;
+        flex-direction: row;
+
+    }
+
+    .main-container-moduls a{
+        width: 50%;
     }
 
     .uno{
-        width: 50%;
+        width: 100%;
         height: 20rem;
         
         background-image: url(../imgs/Ameripol.svg);
@@ -561,7 +563,7 @@ footer > div{
     }
 
     .dos{
-        width: 50%;
+        width: 100%;
         height: 20rem;
         background-image: url(../imgs/Solei.svg);
         background-repeat: no-repeat;
@@ -576,15 +578,13 @@ footer > div{
     }
     
     .tres{
-        width: 50%;
+        width: 100%;
         height: 20rem;
-        border: var(--quaternary-color) solid 1px;
     }
     
     .cuatro{
-        width: 50%;
+        width: 100%;
         height: 20rem;
-        border: var(--quaternary-color) solid 1px;
     }
 
 
@@ -940,7 +940,7 @@ footer > div{
         min-width: 320px;
         height: 550px;
 
-        background-color: var(--tertiary-color);
+        background-color: var(--black);
     }
     
 
