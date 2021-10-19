@@ -217,6 +217,12 @@ nav{
     /*cursor: pointer;*/
 }
 
+.nav-logo:hover{
+    transition: 6s;
+    transform: scale(1.3, 1.3);
+    filter: brightness(130%);
+}
+
 .nav-btn-love{
     width: 6rem;
     height: 8rem; /*antes auto, ahora 8rem y por considerar*/
@@ -492,6 +498,7 @@ footer > div{
     font-family: Helvetica, sans-serif;
     font-size: 1.1rem;
     text-align: center;
+    color: var(--whi);
 }
 
 @media (min-width:768px){

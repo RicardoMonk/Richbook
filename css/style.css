@@ -626,7 +626,7 @@ footer > div{
 
 .fab:hover{
     cursor: pointer;
-    color: var(--quaternary-color);
+    color: rgb(71,228,187);
 }
 
 .footer-power{
@@ -1201,7 +1201,7 @@ footer > div{
         align-self: center;
         width: 80%;
         height: auto;
-        color: white;
+        color: var(--black);
         padding-top: 10rem;
         padding-bottom: 8rem;
         line-height: 1.5rem;
