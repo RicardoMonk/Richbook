@@ -378,4 +378,74 @@ main .main-three-landing{
     margin-top: 3rem;
 }
 
+main .main-four-landing{
+    width: 100vw;
+    height: auto;
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-four-landing .main-four-tit {
+    font-size: var(--title2);
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    border: black solid 1px;
+}
+
+.main-four-landing .main-four-box{
+    width: 85%;
+    max-width: 280px;
+    height: auto;
+    border: black solid 1px;
+}
+
+.main-four-landing .main-four-img{
+    width: 100%;
+    height: 30rem;
+    border: black solid 1px;
+    margin-top: 3rem;
+}
+
+.main-four-landing .main-four-tit2 {
+    width: 85%;
+    max-width: 280px;
+    font-size: var(--title2);
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    border: black solid 1px;
+}
+
+.main-four-landing .main-four-box2{
+    width: 85%;
+    max-width: 280px;
+    height: auto;
+    border: black solid 1px;
+}
+
+.main-four-landing .main-four-tit3 {
+    width: 85%;
+    max-width: 280px;
+    font-size: var(--title2);
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    border: black solid 1px;
+}
+
+.main-four-landing .main-four-box3{
+    width: 85%;
+    max-width: 280px;
+    height: auto;
+    border: black solid 1px;
+}
+
+.main-four-landing .main-four-img2{
+    width: 100%;
+    height: 30rem;
+    border: black solid 1px;
+    margin-top: 3rem;
+}
+
+
 
