@@ -321,7 +321,7 @@ main .main-two-landing{
 
 .main-two-landing .main-tit{
     font-size: var(--title1);
-    border: black solid 1px;
+    /* border: black solid 1px; */
     margin-top: 4rem;
     margin-bottom: 4rem;
 }
@@ -330,7 +330,7 @@ main .main-two-landing{
     width: 85%;
     max-width: 280px;
     height: auto;
-    border: black solid 1px;
+    /* border: black solid 1px; */
 }
 
 .box-text1{
@@ -345,4 +345,37 @@ main .main-two-landing{
     font-size: var(--title2);
     margin-bottom: 1rem;
 }
+
+main .main-three-landing{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(236, 247, 243);
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-three-landing .main-three-tit{
+    font-size: var(--title1);
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    border: black solid 1px;
+}
+
+.main-three-landing .main-three-box{
+    width: 85%;
+    max-width: 280px;
+    height: auto;
+    border: black solid 1px;
+}
+
+.main-three-landing .main-three-img{
+    width: 100%;
+    height: 30rem;
+    border: black solid 1px;
+    margin-top: 3rem;
+}
+
 
