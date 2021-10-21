@@ -1,0 +1,348 @@
+/*1-Edicion de la barra de navegacion*/
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: rgba(0,0,0,0);
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--quaternary-color);
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: var(--tertiary-color);
+}
+/*1*/
+
+/*2-Cambio de color de la seleccion de texto*/
+*::selection {
+    background-color: var(--quaternary-color);
+    color: var(--tertiary-color);
+}
+ 
+*::-moz-selection {
+    background-color:var(--quaternary-color);
+    color:var(--tertiary-color);
+}
+/*2*/
+
+:root{
+    --primary-color: #3b4a6b;
+    --secundary-color: #22b2da;
+    --tertiary-color: #f0d43a;
+    --quaternary-color: #f23557;
+
+    --black: #000000;
+    --whi : #f7f7f7;
+
+    --title1: 3rem;
+    --title2: 2rem;
+}
+
+/*3-estos 3 elementos son super importantes ya que formatean las caracteristicas del navegador*/
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+/*3*/
+
+html{
+    font-size: 62.5%;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    font-size: 1.6rem;
+    /**/overflow-x:hidden;
+    background-color: var(--whi);
+}
+
+header{
+    display: flex;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    min-width: 320px;
+    height: 8rem;
+    background: rgb(71,228,187);
+    background: radial-gradient(circle, rgba(71,228,187,1) 17%, rgba(1,210,142,1) 50%, rgba(64,167,152,1) 90%);
+  /*background: rgba(255,255,255,0.2);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    backdrop-filter: blur(11px);
+    border-bottom: 1px solid rgba(255,255,255,0.25);*/
+    justify-content: center;
+    align-items: center;
+    /**/overflow-x:hidden;
+}
+
+nav{
+    display: flex;
+    width: 80%;
+    height: 80%;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#burger-menu{
+    width: 27px;
+    height: 27px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 24px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+#burger-menu span,
+#burger-menu span:before,
+#burger-menu span:after{
+    background: var(--whi);
+    display: block;
+    height: 4px;
+    position: absolute;
+    transition: all 300ms ease;
+}
+
+#burger-menu span:before,
+#burger-menu span:after{
+    content: '';
+}
+
+#burger-menu span{
+    right: 0px;
+    top: 13px;
+    width: 27px;
+}
+
+#burger-menu span:before{
+    left: 0px;
+    top: -10px;
+    width: 27px;
+}
+
+#burger-menu span:after{
+    left: 0px;
+    top: 10px;
+    width: 27px;
+}
+
+#burger-menu.close span{
+    transform: rotate(-45deg);
+    top: 13px;
+    width: 27px;
+    background: red;
+}
+
+#burger-menu.close span:before{
+    top: 0px;
+    transform: rotate(90deg);
+    width: 27px;
+    background: red;
+}
+
+#burger-menu.close span:after{
+    top: 0px;
+    left: 0px;
+    transform: rotate(90deg);
+    width: 27px;
+    opacity: 0;
+}
+
+#menu{
+    z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    text-align: center;
+    padding-top: 30px;
+    visibility: hidden;
+    transition: all 300ms ease; 
+}
+
+#menu.show{
+    opacity: 1;
+    visibility: visible;
+    padding-top: 130px;
+    background: rgba(0,0,0,0.9);
+}
+
+#menu li{
+    font-family: Helvetica, sans-serif;
+    list-style: none;
+    position: relative;
+    width: 300px;
+    margin: auto;
+}
+
+#menu li:hover{
+    letter-spacing: 4px;
+}
+
+#menu li a{
+    color: white;
+    display: block;
+    font-size: 3.2rem;
+    text-decoration: none;
+    margin-bottom: 30px;
+    position: relative;
+    transition: all 300ms;
+}
+
+#menu li a:hover:before{
+    opacity: 1;
+    transform: scale(1);
+
+}
+
+.nav-logo{
+    width: 6rem;
+    height: 6rem;
+    /* margin-left: 1.4rem; */
+    /*border: white solid 1px;*/
+    background-image: url(../imgs/rweb.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    /*cursor: pointer;*/
+}
+
+.nav-logo:hover{
+    transition: 6s;
+    transform: scale(1.3, 1.3);
+    filter: brightness(130%);
+}
+
+.nav-btn-love{
+    width: 6rem;
+    height: 8rem; /*antes auto, ahora 8rem y por considerar*/
+    /*border: white solid 1px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.fa-heart{
+    font-size: 3.8rem;
+    cursor: pointer;
+    -webkit-text-stroke: 2px var(--whi);
+    color: transparent; 
+}
+
+.fa-heart:hover{
+    color: var(--whi);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button{
+    transition-duration: 0.4s;
+    background-color: transparent;
+    border-style: none;
+}
+
+#incrementText{
+    position: absolute;
+    top: 12px;
+    margin-left: 39px;
+    justify-content: center;
+    font-size: 1.1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--quaternary-color);
+    border-radius: 20px;
+    padding: 3px 3px;
+    text-align: center;
+}
+
+main .main-one-landing{
+    width: 100vw;
+    min-width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: black solid 1px;
+    padding-top: 12rem;
+}
+
+main .main-name{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+main .main-name .ptext2{
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+    margin: 0 .9rem;
+    padding: 0 .9rem;
+}
+
+main .main-obj{
+    text-align: center;
+    font-size: var(--title1);
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+main .main-img{
+    width: 100%;
+    height: 30rem;
+    border: black solid 1px;
+    margin-top: 3rem;
+}
+
+main .main-two-landing{
+    width: 100vw;
+    min-width: 320px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: black solid 1px;
+}
+
+.main-two-landing .main-tit{
+    font-size: var(--title1);
+    border: black solid 1px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.main-two-landing .box-text{
+    width: 85%;
+    max-width: 280px;
+    height: auto;
+    border: black solid 1px;
+}
+
+.box-text1{
+    margin-bottom: 3rem;
+}
+
+.box-text2{
+    margin-bottom: 6rem;
+}
+
+.main-two-landing .sub-tit{
+    font-size: var(--title2);
+    margin-bottom: 1rem;
+}
+
