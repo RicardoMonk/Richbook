@@ -544,26 +544,42 @@ main .main-seven-landing{
     width: 85%;
     max-width: 280px;
     height: auto;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    border: black solid 1px;
+    /* border: black solid 1px; */
     margin-top: 4rem;
     margin-bottom: 4rem;
+    text-align: center;
+    font-size: 1.3rem;
 }
 
 .ver-pag{
-    width: 50%;
+    cursor: pointer;
+    text-align: center;
+    width: 13rem;
     height: 3rem;
-    border: black solid 1px;
+    padding-top: .2rem;
+    border-radius: 20px;
+    border: var(--black) solid 1px;
+    color: var(--black);
+    border: var(--black) solid 3px;
 }
 
-.ux-projects{
-    width: 50%;
+.m-se-buttons-h{
+    cursor: pointer;
+    text-align: center;
+    width: 10rem;
     height: 3rem;
-    border: black solid 1px;
+    padding-top: .4rem;
+    border-radius: 20px;
+    border: var(--black) solid 1px;
+    color: var(--black);
+    border: var(--black) solid 3px;
 }
-.home{
-    display: block;
-    
+
+.m-se-buttons-h .home{
+    color: var(--black);
 }
 
 .m-se-img{
@@ -573,3 +589,32 @@ main .main-seven-landing{
 }
 
 
+
+.btn-ver{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 50px;
+    
+    border-radius: 100px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: Helvetica, sans-serif;
+    margin-top: 2.5rem;
+}
+
+.btn-ver:hover{
+    background-color: var(--black);
+    color: var(--whi);
+    transition: .3s;
+    border: none;
+}
+
+section div a{
+    text-decoration: none;
+}
+
+.fa-arrow-right{
+    padding-left: 1rem;
+}
