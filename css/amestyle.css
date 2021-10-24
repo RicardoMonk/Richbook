@@ -275,7 +275,7 @@ main .main-one-landing{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: black solid 1px;
+    /* border: black solid 1px; */
     padding-top: 12rem;
 }
 
@@ -316,7 +316,7 @@ main .main-two-landing{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border: black solid 1px;
+    /* border: black solid 1px; */
 }
 
 .main-two-landing .main-tit{
@@ -348,27 +348,29 @@ main .main-two-landing{
 
 main .main-three-landing{
     width: 100vw;
+    min-width: 320px;
     height: auto;
     background-color: rgb(236, 247, 243);
-    border: black solid 1px;
+    /* border: black solid 1px; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .main-three-landing .main-three-tit{
+    width: 75%;
     font-size: var(--title1);
     text-align: center;
     margin-top: 4rem;
     margin-bottom: 4rem;
-    border: black solid 1px;
+    /* border: black solid 1px; */
 }
 
 .main-three-landing .main-three-box{
     width: 85%;
     max-width: 280px;
     height: auto;
-    border: black solid 1px;
+    /* border: black solid 1px; */
 }
 
 .main-three-landing .main-three-img{
@@ -380,8 +382,9 @@ main .main-three-landing{
 
 main .main-four-landing{
     width: 100vw;
+    min-width: 320px;
     height: auto;
-    border: black solid 1px;
+    /* border: black solid 1px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -391,14 +394,14 @@ main .main-four-landing{
     font-size: var(--title2);
     margin-top: 4rem;
     margin-bottom: 1rem;
-    border: black solid 1px;
+    /* border: black solid 1px; */
 }
 
 .main-four-landing .main-four-box{
     width: 85%;
     max-width: 280px;
     height: auto;
-    border: black solid 1px;
+    /* border: black solid 1px; */
 }
 
 .main-four-landing .main-four-img{
@@ -414,14 +417,14 @@ main .main-four-landing{
     font-size: var(--title2);
     margin-top: 4rem;
     margin-bottom: 1rem;
-    border: black solid 1px;
+    /* border: black solid 1px; */
 }
 
 .main-four-landing .main-four-box2{
     width: 85%;
     max-width: 280px;
     height: auto;
-    border: black solid 1px;
+    /* border: black solid 1px; */
 }
 
 .main-four-landing .main-four-tit3 {
@@ -430,14 +433,14 @@ main .main-four-landing{
     font-size: var(--title2);
     margin-top: 4rem;
     margin-bottom: 1rem;
-    border: black solid 1px;
+    /* border: black solid 1px; */
 }
 
 .main-four-landing .main-four-box3{
     width: 85%;
     max-width: 280px;
     height: auto;
-    border: black solid 1px;
+    /* border: black solid 1px; */
 }
 
 .main-four-landing .main-four-img2{
@@ -449,8 +452,9 @@ main .main-four-landing{
 
 main .main-five-landing{
     width: 100vw;
+    min-width: 320px;
     height: auto;
-    border: black solid 1px;
+    /* border: black solid 1px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -462,7 +466,7 @@ main .main-five-landing{
     font-size: var(--title2);
     margin-top: 4rem;
     margin-bottom: 1rem;
-    border: black solid 1px;
+    /* border: black solid 1px; */
     text-align: center;
 }
 
@@ -470,7 +474,7 @@ main .main-five-landing{
     width: 85%;
     max-width: 280px;
     height: auto;
-    border: black solid 1px;
+    /* border: black solid 1px; */
 }
 
 .m-f-img{
@@ -483,8 +487,9 @@ main .main-five-landing{
 main .main-six-landing{
     background-color: rgb(236, 247, 243);
     width: 100vw;
+    min-width: 320px;
     height: auto;
-    border: black solid 1px;
+    /* border: black solid 1px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -496,7 +501,7 @@ main .main-six-landing{
     font-size: var(--title2);
     margin-top: 4rem;
     margin-bottom: 1rem;
-    border: black solid 1px;
+    /* border: black solid 1px; */
     text-align: center;
 }
 
@@ -504,7 +509,7 @@ main .main-six-landing{
     width: 85%;
     max-width: 280px;
     height: auto;
-    border: black solid 1px;
+    /* border: black solid 1px; */
 }
 
 .m-s-img{
@@ -516,8 +521,9 @@ main .main-six-landing{
 
 main .main-seven-landing{
     width: 100vw;
+    min-width: 320px;
     height: auto;
-    border: black solid 1px;
+    /* border: black solid 1px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -529,7 +535,7 @@ main .main-seven-landing{
     font-size: var(--title2);
     margin-top: 4rem;
     margin-bottom: 1rem;
-    border: black solid 1px;
+    /* border: black solid 1px; */
     text-align: center;
 }
 
@@ -537,7 +543,7 @@ main .main-seven-landing{
     width: 85%;
     max-width: 280px;
     height: auto;
-    border: black solid 1px;
+    /* border: black solid 1px; */
 }
 
 .m-se-buttons{
@@ -559,21 +565,50 @@ main .main-seven-landing{
     text-align: center;
     width: 13rem;
     height: 3rem;
-    padding-top: .2rem;
+    padding-top: .4rem;
     border-radius: 20px;
-    border: var(--black) solid 1px;
     color: var(--black);
     border: var(--black) solid 3px;
 }
 
-.m-se-buttons-h{
+.ver-pag:hover{
+    background-color: var(--black);
+    color: var(--whi);
+    transition: .3s;
+}
+
+.ux-projects{
     cursor: pointer;
     text-align: center;
-    width: 10rem;
+    width: 13rem;
     height: 3rem;
     padding-top: .4rem;
     border-radius: 20px;
-    border: var(--black) solid 1px;
+    color: var(--black);
+    border: var(--black) solid 3px;
+}
+
+.ux-projects:hover{
+    background-color: var(--black);
+    color: var(--whi);
+    transition: .3s;
+}
+
+.m-se-buttons-h{
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+    height: auto;
+    font-size: 1.3rem;
+}
+
+.home{
+    cursor: pointer;
+    text-align: center;
+    width: 13rem;
+    height: 3rem;
+    padding-top: .4rem;
+    border-radius: 20px;
     color: var(--black);
     border: var(--black) solid 3px;
 }
@@ -582,39 +617,158 @@ main .main-seven-landing{
     color: var(--black);
 }
 
+.m-se-buttons-h .home:hover{
+    background-color: var(--black);
+    color: var(--whi);
+    transition: .3s;
+}
+
 .m-se-img{
     width: 100%;
     height: 30rem;
     border: black solid 1px;
-}
-
-
-
-.btn-ver{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 240px;
-    height: 50px;
-    
-    border-radius: 100px;
-    text-align: center;
-    font-size: 1.8rem;
-    font-family: Helvetica, sans-serif;
-    margin-top: 2.5rem;
-}
-
-.btn-ver:hover{
-    background-color: var(--black);
-    color: var(--whi);
-    transition: .3s;
-    border: none;
+    margin-top: 4rem;
 }
 
 section div a{
     text-decoration: none;
 }
 
-.fa-arrow-right{
-    padding-left: 1rem;
+@media (min-width:768px) {
+
+    main{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+    }
+
+    main .main-two-landing{
+        width: 100vw;
+        max-width: 768px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        /* border: black solid 1px; */
+    }
+    
+    .main-two-landing .main-tit{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: var(--title1);
+        /* border: black solid 1px; */
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+    
+    .main-two-landing .box-text{
+        width: 50%;
+        max-width: 280px;
+        height: auto;
+        /* border: black solid 1px; */
+    }
+    
+    .box-text1{
+        margin-top: -6.6rem;
+    }
+    
+    .box-text2{
+        margin-bottom: 6rem;
+    }
+    
+    .main-two-landing .sub-tit{
+        font-size: var(--title2);
+        margin-bottom: 1rem;
+    }
+
+    main .main-three-landing{
+        width: 100vw;
+        min-width: 100%;
+        height: auto;
+        background-color: rgb(236, 247, 243);
+        /* border: black solid 1px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-three-landing{
+
+        max-width: 768px;
+    }
+
+    /* here four section */
+
+    main .main-four-landing{
+        width: 100vw;
+        max-width: 768px;
+        height: auto;
+        /* border: black solid 1px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .main-four-landing .main-four-tit {
+        font-size: var(--title2);
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+        /* border: black solid 1px; */
+    }
+    
+    .main-four-landing .main-four-box{
+        width: 85%;
+        max-width: 280px;
+        height: auto;
+        /* border: black solid 1px; */
+    }
+    
+    .main-four-landing .main-four-img{
+        width: 100%;
+        height: 30rem;
+        border: black solid 1px;
+        margin-top: 3rem;
+    }
+    
+    .main-four-landing .main-four-tit2 {
+        width: 85%;
+        max-width: 280px;
+        font-size: var(--title2);
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+        /* border: black solid 1px; */
+    }
+    
+    .main-four-landing .main-four-box2{
+        width: 85%;
+        max-width: 280px;
+        height: auto;
+        /* border: black solid 1px; */
+    }
+    
+    .main-four-landing .main-four-tit3 {
+        width: 85%;
+        max-width: 280px;
+        font-size: var(--title2);
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+        /* border: black solid 1px; */
+    }
+    
+    .main-four-landing .main-four-box3{
+        width: 85%;
+        max-width: 280px;
+        height: auto;
+        /* border: black solid 1px; */
+    }
+    
+    .main-four-landing .main-four-img2{
+        width: 100%;
+        height: 30rem;
+        border: black solid 1px;
+        margin-top: 3rem;
+    }
 }
