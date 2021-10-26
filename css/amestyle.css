@@ -569,12 +569,13 @@ main .main-seven-landing{
     border-radius: 20px;
     color: var(--black);
     border: var(--black) solid 3px;
+    transition-duration: 0.3s;
 }
 
 .ver-pag:hover{
     background-color: var(--black);
     color: var(--whi);
-    transition: .3s;
+
 }
 
 .ux-projects{
@@ -586,12 +587,13 @@ main .main-seven-landing{
     border-radius: 20px;
     color: var(--black);
     border: var(--black) solid 3px;
+    transition-duration: 0.3s;
 }
 
 .ux-projects:hover{
     background-color: var(--black);
     color: var(--whi);
-    transition: .3s;
+
 }
 
 .m-se-buttons-h{
@@ -615,12 +617,12 @@ main .main-seven-landing{
 
 .m-se-buttons-h .home{
     color: var(--black);
+    transition-duration: 0.3s;
 }
 
 .m-se-buttons-h .home:hover{
     background-color: var(--black);
     color: var(--whi);
-    transition: .3s;
 }
 
 .m-se-img{

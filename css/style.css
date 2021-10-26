@@ -447,13 +447,13 @@ section .textux{
     font-size: 1.8rem;
     font-family: Helvetica, sans-serif;
     margin-top: 2.5rem;
+    transition-duration: 0.4s;
 }
 
 .btn-ver:hover{
     background-color: var(--black);
     color: var(--whi);
-    transition: .3s;
-    border: none;
+  
 }
 
 section div a{
