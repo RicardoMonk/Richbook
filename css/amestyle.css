@@ -304,8 +304,15 @@ main .main-obj{
 main .main-img{
     width: 100%;
     height: 30rem;
-    border: black solid 1px;
+    /* border: black solid 1px; */
     margin-top: 3rem;
+    overflow: hidden;
+}
+
+.main-img picture .mobil{
+    width: 145%;
+    height: auto;
+    
 }
 
 main .main-two-landing{
@@ -645,6 +652,12 @@ section div a{
         align-items: center;
     }
 
+    .main-img {
+        width: 145%;
+        height: auto;
+        padding-bottom: 40rem;
+    }
+
     main .main-two-landing{
         width: 100vw;
         max-width: 768px;
@@ -675,7 +688,7 @@ section div a{
     }
     
     .box-text1{
-        margin-top: -6.6rem;
+        margin-top: -1.6rem;
     }
     
     .box-text2{
