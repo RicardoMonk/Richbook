@@ -747,7 +747,7 @@ main .main-seven-landing{
 .m-se-cent{
     display: flex;
     justify-content: center;
-    margin-top: 11rem;
+    margin-top: 12rem;
 }
 
 .m-se-img img{
@@ -922,6 +922,9 @@ section div a{
         margin-top: 3rem;
     }
 
+    .m-f-img{
+        width: 85%;
+    }
     
 }
 
@@ -942,5 +945,9 @@ section div a{
     
     .main-three-img video{
         width: 100%;
+    }
+
+    .m-f-img{
+        width: 46%;
     }
 }
