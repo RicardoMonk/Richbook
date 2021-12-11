@@ -386,10 +386,13 @@ main .main-three-landing{
     height: auto;
     /* border: black solid 1px; */
     margin-top: 3rem;
+    overflow: hidden;
 }
 
 .main-three-img video{
     width: 100%;
+    position: relative;
+    right: -.1rem;
 }
 
 main .main-four-landing{
@@ -588,10 +591,13 @@ main .main-five-landing{
     height: auto;
     /* border: black solid 1px; */
     margin-top: 3rem;
+    overflow: hidden;
 }
 
 .m-f-img video{
     width: 101%;
+    position: relative;
+    right: -.1rem;
 }
 
 main .main-six-landing{
