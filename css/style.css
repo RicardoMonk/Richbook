@@ -422,6 +422,7 @@ section .imgux{
 .imgux video{
     align-self: center;
     width: 50%;
+    max-width: 225px;
     /* border: hotpink solid 1px; */
 }
 
