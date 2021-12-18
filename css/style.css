@@ -591,6 +591,125 @@ section .texblog{
     text-align: justify;
 }
 
+main .main-five-landing{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color:var(--tertiary-color);
+}
+
+section .cert{
+    text-align: center;
+    align-self: center;
+    width: 80%;
+    height: auto;
+    color: var(--black);
+    padding-top: 4rem;
+    padding-bottom: 3.5rem;
+    line-height: 1.5rem;
+    font-family: Helvetica, sans-serif;
+}
+
+.cert h6{
+    font-size: 4rem;
+}
+
+section .imacert{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 25rem;
+    border: var(--black) solid 1px;
+}
+
+.imacert video{
+    align-self: center;
+    width: 60%;
+    max-width: 250px;
+    /* border: hotpink solid 1px; */
+}
+
+section .texcert{
+    align-self: center;
+    width: 80%;
+    height: auto;
+    color: var(--black);
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    line-height: 1.8rem;
+    font-family: Helvetica, sans-serif;
+    text-align: justify;
+}
+
+
+
+
+
+
+main .main-six-landing{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    /* background-color:#d1fff3; */
+}
+
+section .cv{
+    text-align: center;
+    align-self: center;
+    width: 80%;
+    height: auto;
+    color: var(--black);
+    padding-top: 4rem;
+    padding-bottom: 3.5rem;
+    line-height: 1.5rem;
+    font-family: Helvetica, sans-serif;
+}
+
+.cv h6{
+    font-size: 4rem;
+}
+
+section .imacv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 25rem;
+    border: var(--black) solid 1px;
+}
+
+.imacv video{
+    align-self: center;
+    width: 60%;
+    max-width: 250px;
+    /* border: hotpink solid 1px; */
+}
+
+section .texcv{
+    align-self: center;
+    width: 80%;
+    height: auto;
+    color: var(--black);
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    line-height: 1.8rem;
+    font-family: Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.main-six i{
+    padding-left: 1rem;
+}
+
 footer{
     padding-top: 8rem ;
     display: flex;
