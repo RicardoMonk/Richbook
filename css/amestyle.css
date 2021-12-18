@@ -756,9 +756,27 @@ main .main-seven-landing{
     margin-top: 12rem;
 }
 
+.img-two{
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition-duration: .5s;
+}
+
+.m-se-cent:hover > .img-two{
+    opacity: 1;
+    visibility: visible;
+}
+
+.m-se-cent:hover > img{
+    opacity: 0;
+    visibility: hidden;
+}
+
 .m-se-img img{
     width: 15rem;
     height: auto;
+    transition-duration: .5s;
 }
 
 section div a{
