@@ -183,6 +183,7 @@ nav{
     position: relative;
     width: 300px;
     margin: auto;
+    float: none;
 }
 
 #menu li:hover{
@@ -194,7 +195,7 @@ nav{
     display: block;
     font-size: 3.2rem;
     text-decoration: none;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     position: relative;
     transition: all 300ms;
     
@@ -311,6 +312,7 @@ nav{
 .main-container-text_box h1{
     font-size: 4.2rem;
     margin: -0.2rem 0 1.68rem 0;
+    font-weight: 600;
 }
 
 .textux{
