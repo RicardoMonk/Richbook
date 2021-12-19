@@ -44,3 +44,13 @@ function mostrarscroll(){
 }
 
 window.addEventListener('scroll', mostrarscroll);
+
+// this efect work to show preview of img of sections certified
+
+document.addEventListener('DOMContentLoaded', () => {
+	const imgLightBox = document.querySelectorAll('.materialboxed');
+	M.Materialbox.init(imgLightBox, {
+		inDuration: 500,
+		outDuration: 500
+	});
+});

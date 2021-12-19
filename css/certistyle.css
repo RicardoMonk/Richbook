@@ -206,6 +206,12 @@ nav{
 
 }
 
+nav{
+    background-color: transparent;
+    box-shadow:none;
+    line-height: 12px;
+}
+
 .nav-logo{
     width: 6rem;
     height: 6rem;
@@ -234,7 +240,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 5px;
+    padding-top: 24px;
 }
 
 .fa-heart{
@@ -282,6 +288,8 @@ nav{
     flex-direction: column;
     width: 100%;
     height: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-container-img{
@@ -296,19 +304,60 @@ nav{
     text-align: center;
     align-self: center;
     margin-top: -2.6rem;
-    margin-bottom: 3rem;
     font-family: Helvetica, sans-serif;
     color: var(--black);
 }
 
 .main-container-text_box h1{
     font-size: 4.2rem;
+    margin: -0.2rem 0 1.68rem 0;
 }
 
-.main-container-moduls{
-    width: 100%;
+.textux{
+    width: 80%;
     height: auto;
-    display: flex;
-    flex-direction: column;
+    color: var(--black);
+    line-height: 1.8rem;
+    font-family: Helvetica, sans-serif;
+    text-align: justify;
+    /* border: tomato solid 1px; */
+    margin-top: 3.5rem;
+    margin-bottom: 5.5rem;
 }
 
+/* aqui empiezan los estilos del framework materialize para la galeria */
+
+.galeria img {
+    box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
+    border-radius: 15px;
+}
+
+.materialbox-caption {
+    bottom: 30px;
+    right: 0;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background: #000;
+    box-shadow: 5px 5px #fff;
+    font-size: 20px;
+    color: #fff;
+    line-height: 28px;
+}
+
+.galeria .col {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px){
+    .materialbox-caption {
+         width: 90%;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .materialbox-caption {
+         width: 70%;
+    }
+}
