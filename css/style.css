@@ -431,6 +431,16 @@ section .imgux{
     /* border: hotpink solid 1px; */
 }
 
+.vid{
+    transition-duration: .5s;
+}
+
+.vid:hover{
+    width: 51%;
+    max-width: 400px;
+    transition-duration: .5s;
+}
+
 section .textux{
    
     width: 80%;
@@ -637,6 +647,17 @@ section .imacert{
     width: 80%;
     max-width: 375px;
     /* \ */
+}
+
+
+.vidn{
+    transition-duration: .5s;
+}
+
+.vidn:hover{
+    width: 85%;
+    max-width: 500px;
+    transition-duration: .5s;
 }
 
 section .texcert{
