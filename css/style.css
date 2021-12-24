@@ -633,9 +633,9 @@ section .imacert{
 
 .imacert video{
     align-self: center;
-    width: 100%;
+    width: 80%;
     max-width: 375px;
-    /* border: hotpink solid 1px; */
+    border: hotpink solid 1px;
 }
 
 section .texcert{
