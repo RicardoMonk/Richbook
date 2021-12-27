@@ -743,7 +743,7 @@ footer{
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 520px;
+    height: auto;
 
     background-color: var(--black);
 }
@@ -763,11 +763,21 @@ footer > div{
 }
 
 .footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     align-self: center;
-    width: 80%;
-    height: 13rem;
-    border: var(--whi) solid 1px;
+    width: 100%;
+    height: 30rem;
+    /* border: var(--whi) solid 1px; */
     margin-top: 3rem;
+}
+
+.footer-logo video{
+    align-self: center;
+    width: 50%;
+    max-width: 250px;
+    /* border: hotpink solid 1px; */
 }
 
 .footer-redes{
@@ -906,6 +916,8 @@ footer > div{
         width: 100%;
         height: auto;
         padding-bottom: 6rem;
+        padding-right: 4rem;
+        /* border: pink solid 1px; */
     }
     
     section .ux{
@@ -950,11 +962,37 @@ footer > div{
     section .imgux{
         align-self: center;
         width: 50%;
-        height: 25rem;
-        border: var(--black) solid 1px;
+        height: 32rem;
+        /* border: var(--black) solid 1px; */
+    }
+    .imgux video{
+        /* border: var(--black) solid 1px; */
+        width: 90%;
+        max-width: 700px;
+    }
+
+    .vid{
+        transition-duration: .5s;
+    }
+    
+    .vid:hover{
+        width: 100%;
+        max-width: 800px;
+        transition-duration: .5s;
+    }
+
+    .vidn{
+        transition-duration: .5s;
+    }
+    
+    .vidn:hover{
+        width: 120%;
+        max-width: 800px;
+        transition-duration: .5s;
     }
     
     section .textux{
+        /* border: var(--black) solid 1px; */
         align-self: center;
         width: 50%;
         max-width: 400px;
@@ -1014,6 +1052,7 @@ footer > div{
         width: 100%;
         height: auto;
         padding-bottom: 6rem;
+        padding-left: 4rem;
     }
     
     section .anima{
@@ -1035,9 +1074,15 @@ footer > div{
     section .imation{
         align-self: center;
         width: 50%;
-        height: 25rem;
-        border: var(--black) solid 1px;
+        height: 34rem;
+        /* border: var(--black) solid 1px; */
         order: 3;
+        overflow: hidden;
+    }
+
+    .imation video{
+        width: 90%;
+        max-width: 700px;
     }
     
     section .textion{
@@ -1064,6 +1109,7 @@ footer > div{
         width: 100%;
         height: auto;
         padding-bottom: 6rem;
+        padding-right: 4rem;
     }
     
     section .blog{
@@ -1085,8 +1131,14 @@ footer > div{
     section .imablog{
         align-self: center;
         width: 50%;
-        height: 25rem;
-        border: var(--black) solid 1px;
+        height: 33rem;
+        /* border: var(--black) solid 1px; */
+        overflow: hidden;
+    }
+
+    .imablog video{
+        width: 90%;
+        max-width: 700px;
     }
     
     section .texblog{
@@ -1101,6 +1153,98 @@ footer > div{
         font-family: Helvetica, sans-serif;
         text-align: justify;
         padding: 2.5rem 4rem;
+    }
+
+    main .main-five-landing{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding-bottom: 6rem;
+        padding-left: 4rem;
+    }
+
+    section .imacert{
+        order: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 33rem;
+        /* border: var(--black) solid 1px; */
+        overflow: hidden;
+    }
+    
+    .imacert video{
+        align-self: center;
+        width: 110%;
+        max-width: 700px;
+        /* border: var(--black) solid 1px; */
+    }
+
+    section .texcert{
+        order: 1;
+        align-self: center;
+        width: 50%;
+        max-width: 400px;
+        height: auto;
+        color: var(--black);
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        line-height: 1.5rem;
+        font-family: Helvetica, sans-serif;
+        text-align: justify;
+        padding: 2.5rem 4rem;
+        /* border: var(--black) solid 1px; */
+    }
+
+    main .main-six-landing{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        padding-bottom: 6rem;
+        padding-right: 4rem;
+    }
+
+    section .imacv{
+       
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50%;
+        height: 28rem;
+        border: var(--black) solid 1px;
+        overflow: hidden;
+    }
+    
+    .imacv video{
+        align-self: center;
+        width: 80%;
+        max-width: 375px;
+        /* \ */
+    }
+
+    section .texcv{
+    
+        align-self: center;
+        width: 50%;
+        max-width: 400px;
+        height: auto;
+        color: var(--black);
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+        line-height: 1.5rem;
+        font-family: Helvetica, sans-serif;
+        text-align: justify;
+        padding: 2.5rem 4rem;
+        border: var(--black) solid 1px;
     }
 }
 
