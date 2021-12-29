@@ -18,7 +18,7 @@
 /*2-Cambio de color de la seleccion de texto*/
 *::selection {
     background-color: var(--G-sec);
-    color: var(--G-prim);
+    color: var(--whi);
 }
  
 *::-moz-selection {

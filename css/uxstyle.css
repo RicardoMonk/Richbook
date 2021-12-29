@@ -17,13 +17,13 @@
 
 /*2-Cambio de color de la seleccion de texto*/
 *::selection {
-    background-color: var(--quaternary-color);
-    color: var(--tertiary-color);
+    background-color: var(--G-sec);
+    color: var(--whi);
 }
  
 *::-moz-selection {
-    background-color:var(--quaternary-color);
-    color:var(--tertiary-color);
+    background-color: var(--G-sec);
+    color: var(--whi);
 }
 /*2*/
 
@@ -35,6 +35,11 @@
 
     --black: #000000;
     --whi : #f7f7f7;
+
+    --G-prim: #40a798;
+    --G-sec: #01d28e;
+    --G-thir: #47e4bb;
+
 }
 
 /*3-estos 3 elementos son super importantes ya que formatean las caracteristicas del navegador*/

@@ -17,13 +17,13 @@
 
 /*2-Cambio de color de la seleccion de texto*/
 *::selection {
-    background-color: var(--quaternary-color);
-    color: var(--tertiary-color);
+    background-color: var(--G-sec);
+    color: var(--whi);
 }
  
 *::-moz-selection {
-    background-color:var(--quaternary-color);
-    color:var(--tertiary-color);
+    background-color: var(--G-sec);
+    color: var(--whi);
 }
 /*2*/
 
@@ -35,6 +35,11 @@
 
     --black: #000000;
     --whi : #f7f7f7;
+
+    --G-prim: #40a798;
+    --G-sec: #01d28e;
+    --G-thir: #47e4bb;
+
 }
 
 /*3-estos 3 elementos son super importantes ya que formatean las caracteristicas del navegador*/
@@ -317,7 +322,7 @@ nav{
     width: 80%;
     text-align: center;
     align-self: center;
-    margin-top: -4.6rem;
+    margin-top: 5.5rem;
     margin-bottom: 3rem;
     font-family: Helvetica, sans-serif;
     color: var(--bla);
@@ -325,7 +330,22 @@ nav{
 
 
 .main-container-text_box h1{
-    font-size: 4rem;
+    font-size: 5rem;
+}
+
+.texux{
+    align-self: center;
+    /* border: var(--primary-color) 1px solid;  */
+    width: 80%;
+    height: auto;
+    color: var(--black);
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    line-height: 1.8rem;
+    font-family: Helvetica, sans-serif;
+    text-align: justify;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
 }
 
 .main-container-moduls{
