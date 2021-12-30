@@ -1,6 +1,7 @@
 /*1-Edicion de la barra de navegacion*/
 ::-webkit-scrollbar{
-    width: 10px;
+    /* width: 10px; */
+    display: none;
 }
 ::-webkit-scrollbar-track{
     background: rgba(0,0,0,0);
@@ -17,13 +18,13 @@
 
 /*2-Cambio de color de la seleccion de texto*/
 *::selection {
-    background-color:rgba(1,210,142,1);
+    background-color: var(--G-sec);
     color: var(--whi);
 }
  
 *::-moz-selection {
-    background-color:rgba(1,210,142,1);
-    color:var(--whi);
+    background-color: var(--G-sec);
+    color: var(--whi);
 }
 /*2*/
 
@@ -36,6 +37,10 @@
     --black: #000000;
     --whi : #f7f7f7;
 
+    --G-prim: #40a798;
+    --G-sec: #01d28e;
+    --G-thir: #47e4bb;
+    
     --title1: 3rem;
     --title2: 2rem;
 }

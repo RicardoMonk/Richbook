@@ -1,13 +1,14 @@
 /*1-Edicion de la barra de navegacion*/
 ::-webkit-scrollbar{
-    width: 10px;
+    /* width: 10px; */
+    display: none;
 }
 ::-webkit-scrollbar-track{
     background: rgba(0,0,0,0);
     border-radius: 6px;
 }
 ::-webkit-scrollbar-thumb{
-    background: var(--quaternary-color);
+    background: var(--G-sec);
     border-radius: 6px;
 }
 ::-webkit-scrollbar-thumb:hover{
@@ -39,6 +40,9 @@
     --G-prim: #40a798;
     --G-sec: #01d28e;
     --G-thir: #47e4bb;
+        
+    --title1: 3rem;
+    --title2: 2rem;
 
 }
 
@@ -444,6 +448,7 @@ section .imgux{
 section .textux{
    
     width: 80%;
+    max-width: 413px;
     height: auto;
     color: var(--black);
     padding-top: 2.5rem;
@@ -541,6 +546,7 @@ section .imation{
 section .textion{
     align-self: center;
     width: 80%;
+    max-width: 413px;
     height: auto;
     color: var(--black);
     padding-top: 2.5rem;
@@ -597,6 +603,7 @@ section .imablog{
 section .texblog{
     align-self: center;
     width: 80%;
+    max-width: 413px;
     height: auto;
     color: var(--black);
     padding-top: 2.5rem;
@@ -663,6 +670,7 @@ section .imacert{
 section .texcert{
     align-self: center;
     width: 80%;
+    max-width: 413px;
     height: auto;
     color: var(--black);
     padding-top: 2.5rem;
@@ -671,11 +679,6 @@ section .texcert{
     font-family: Helvetica, sans-serif;
     text-align: justify;
 }
-
-
-
-
-
 
 main .main-six-landing{
     display: flex;
@@ -723,6 +726,7 @@ section .imacv{
 section .texcv{
     align-self: center;
     width: 80%;
+    max-width: 413px;
     height: auto;
     color: var(--black);
     padding-top: 2.5rem;
@@ -981,7 +985,7 @@ footer > div{
     .imgux video{
         /* border: var(--black) solid 1px; */
         width: 90%;
-        max-width: 700px;
+        max-width: 300px;
     }
 
     .vid{
@@ -1087,15 +1091,15 @@ footer > div{
     section .imation{
         align-self: center;
         width: 50%;
-        height: 34rem;
+        height: 35rem;
         /* border: var(--black) solid 1px; */
         order: 3;
         overflow: hidden;
     }
 
     .imation video{
-        width: 90%;
-        max-width: 700px;
+        width: 70%;
+        max-width: 400px;
     }
     
     section .textion{
@@ -1144,7 +1148,7 @@ footer > div{
     section .imablog{
         align-self: center;
         width: 50%;
-        height: 33rem;
+        height: 35rem;
         /* border: var(--black) solid 1px; */
         overflow: hidden;
     }
@@ -1178,6 +1182,14 @@ footer > div{
         height: auto;
         padding-bottom: 6rem;
         padding-left: 4rem;
+    }
+
+    .cert h6{
+        font-size: 6rem;
+    }
+
+    .cv h6{
+        font-size: 6rem;
     }
 
     section .imacert{
@@ -1417,7 +1429,32 @@ footer > div{
         align-self: center;
         width: 50%;
         height: 35rem;
-        border: var(--black) solid 1px;
+        /* border: var(--black) solid 1px; */
+    }
+    .imgux video{
+        /* border: var(--black) solid 1px; */
+        width: 80%;
+        max-width: 400px;
+    }
+
+    .vid{
+        transition-duration: .5s;
+    }
+    
+    .vid:hover{
+        width: 100%;
+        max-width: 420px;
+        transition-duration: .5s;
+    }
+
+    .vidn{
+        transition-duration: .5s;
+    }
+    
+    .vidn:hover{
+        width: 120%;
+        max-width: 500px;
+        transition-duration: .5s;
     }
     
     section .textux{
@@ -1500,8 +1537,14 @@ footer > div{
         align-self: center;
         width: 50%;
         height: 35rem;
-        border: var(--black) solid 1px;
+        /* border: var(--black) solid 1px; */
         order: 3;
+        overflow: hidden;
+    }
+
+    .imation video{
+        width: 55%;
+        max-width: 400px;
     }
     
     section .textion{
@@ -1550,8 +1593,13 @@ footer > div{
         align-self: center;
         width: 50%;
         height: 35rem;
-        border: var(--black) solid 1px;
+        /* border: var(--black) solid 1px; */
         color: white;
+    }
+
+    .imablog video{
+        width: 65%;
+        max-width: 320px;
     }
     
     section .texblog{
@@ -1565,6 +1613,20 @@ footer > div{
         font-family: Helvetica, sans-serif;
         text-align: justify;
         padding: 2.5rem 4rem;
+    }
+
+    section .imacert{
+        width: 50%;
+        height: 36rem;
+        /* border: var(--black) solid 1px; */
+        overflow: hidden;
+    }
+    
+    .imacert video{
+        align-self: center;
+        width: 70%;
+        max-width: 400px;
+        /* border: var(--black) solid 1px; */
     }
 
     footer{

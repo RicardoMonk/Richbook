@@ -39,6 +39,9 @@
     --G-prim: #40a798;
     --G-sec: #01d28e;
     --G-thir: #47e4bb;
+        
+    --title1: 3rem;
+    --title2: 2rem;
 
 }
 
@@ -304,7 +307,7 @@ main .main-one-landing{
     align-items: center;
     flex-direction: column;
     width: 80%;
-    height: 80vh;
+    height: 75vh;
     margin-top: 8rem;
     margin-bottom: 3rem;
 }
@@ -344,7 +347,7 @@ main .main-one-landing{
 
 input{
     background: none;
-    color:black;
+    color:var(--G-prim);
     font-size: 2rem;
     padding: 10px 10px 10px 5px;
     display: block;
