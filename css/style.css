@@ -1244,7 +1244,6 @@ footer > div{
         justify-content: center;
         width: 50%;
         height: 28rem;
-        border: var(--black) solid 1px;
         overflow: hidden;
     }
     
@@ -1268,7 +1267,6 @@ footer > div{
         font-family: Helvetica, sans-serif;
         text-align: justify;
         padding: 2.5rem 4rem;
-        border: var(--black) solid 1px;
     }
 }
 
