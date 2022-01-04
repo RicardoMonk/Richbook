@@ -334,9 +334,14 @@ main .main-one-landing{
 }
 
 .vid{
+    display: flex;
+    justify-content:center;
     width: 80%;
     height: 40%;
-    border: indigo solid 1px;
+}
+
+.vid video{
+    width: 80%;
 }
 
 .formu{

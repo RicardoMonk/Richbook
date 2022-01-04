@@ -669,6 +669,17 @@ footer > div{
         margin: 0 auto;
     }
 
+    .main-container-img{
+        align-self: center;
+        width: 100%;
+        height: 30rem;
+    }
+
+    .main-container-img video{
+        width: 100%;
+
+    }
+
     main .main-one-landing{
         display: flex;
         flex-wrap: wrap;
