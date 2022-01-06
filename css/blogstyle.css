@@ -307,6 +307,7 @@ main .main-one-landing{
     align-items: center;
     flex-direction: column;
     width: 80%;
+    max-width: 413px;
     height: 75vh;
     margin-top: 8rem;
     /* margin-bottom: 3rem; */

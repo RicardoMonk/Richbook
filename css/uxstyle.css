@@ -292,6 +292,7 @@ nav{
 
 .main-container{
     width: 100%;
+    min-width: 320px;
     height: auto;
     padding-top: 7.5rem;
     /* border: var(--quaternary-color) solid 1px; */
@@ -309,6 +310,7 @@ nav{
     justify-content: center;
     align-items: center;
     width: 100%;
+    min-width: 320px;
     height: 20rem;
     /* border: var(--primary-color) 1px solid; */
     z-index: -1;
@@ -337,6 +339,7 @@ nav{
 
 .main-container-text_box{
     width: 80%;
+    min-width: 240px;
     text-align: center;
     align-self: center;
     margin-top: 5.5rem;
@@ -349,9 +352,16 @@ nav{
     font-size: 7rem;
 }
 
+.main-cont{
+    width: 80%;
+    max-width: 413px;
+    min-width: 240px;
+}
+
 .main-container-moduls{
     align-self: center;
     width: 80%;
+    min-width: 240px;
     height: auto;
     display: flex;
     flex-direction: column;
