@@ -54,17 +54,6 @@
 }
 /*3*/
 
-html{
-   zoom: 100%;
-   font-size: 62.5%;
-
-}
-body{
-    font-size: 1.6rem;
-    /**/overflow-x:hidden;
-    background-color: var(--whi);
-}
-
 .loader img{
     width: 200rem;
     height: 200rem;
@@ -83,7 +72,7 @@ body{
 }
 
 .loader.hidden{
-    animation: fadeOut 1.7s;
+    animation: fadeOut 1s;
     animation-fill-mode:forwards;
     /* animation-duration: 2s; */
 }
@@ -99,6 +88,17 @@ body{
     to{
         transform: scale(0);
     }
+}
+
+html{
+   zoom: 100%;
+   font-size: 62.5%;
+
+}
+body{
+    font-size: 1.6rem;
+    /**/overflow-x:hidden;
+    background-color: var(--whi);
 }
 
 header{
