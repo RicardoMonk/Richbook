@@ -19,6 +19,13 @@ function incrementButton(){
 
 }
 
+//this code work to animate loader
+
+window.addEventListener("load", function() {
+    const loader = document.querySelector(".loader");
+    loader.className += " hidden";
+});
+
 /*Aparicion del Efecto contador de click
 
 document.getElementById("btn1").addEventListener("click",function(){

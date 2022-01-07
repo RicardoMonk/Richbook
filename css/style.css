@@ -65,6 +65,42 @@ body{
     background-color: var(--whi);
 }
 
+.loader img{
+    width: 200rem;
+    height: 200rem;
+}
+
+.loader{
+    position: fixed;
+    z-index: 200;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader.hidden{
+    animation: fadeOut 1.7s;
+    animation-fill-mode:forwards;
+    /* animation-duration: 2s; */
+}
+
+@keyframes fadeOut {
+    /* 100% {
+        opacity: 0;
+        visibility: hidden;
+    } */
+    from{
+        transform: scale(1.0);
+    }
+    to{
+        transform: scale(0);
+    }
+}
+
 header{
     display: flex;
     position: fixed;
