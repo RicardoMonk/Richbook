@@ -65,7 +65,7 @@
     position: fixed;
     z-index: 200;
     top: -640px;
-    left: -500px;
+    left: -250px;
     width: 300%;
     height: 300%;
     display: flex;
