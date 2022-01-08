@@ -54,18 +54,20 @@
 }
 /*3*/
 
-.loader img{
-    width: 200rem;
-    height: 200rem;
+.loader span{
+    width: 67rem;
+    height: 67rem;
+    background-color: var(--G-thir);
+    border-radius: 100%;
 }
 
 .loader{
     position: fixed;
     z-index: 200;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: -394px;
+    left: -283px;
+    width: 250%;
+    height: 250%;
     display: flex;
     justify-content: center;
     align-items: center;
