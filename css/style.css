@@ -55,8 +55,8 @@
 /*3*/
 
 .loader span{
-    width: 85rem;
-    height: 85rem;
+    width: 100rem;
+    height: 100rem;
     background-color: var(--G-thir);
     border-radius: 100%;
 }
@@ -64,10 +64,10 @@
 .loader{
     position: fixed;
     z-index: 200;
-    top: -640px;
-    left: -250px;
-    width: 300%;
-    height: 300%;
+    top: 0;
+    left: -40%;
+    width: 180%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
