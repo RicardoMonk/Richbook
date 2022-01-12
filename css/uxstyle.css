@@ -482,8 +482,21 @@ footer > div{
     min-width: 200px;
     max-width: 525px;
     height: 3rem;
-    border: var(--whi) solid 1px;
+    /* border: var(--whi) solid 1px; */
     margin-top: 1rem;
+    text-align: center;
+}
+
+.footer-info a{
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 2.5rem;
+    color: var(--whi);
+    transition-duration: .5s;
+}
+
+.footer-info a:hover{
+    color: var(--G-thir);
 }
 
 .footer-logo{
