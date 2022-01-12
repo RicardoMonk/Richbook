@@ -318,8 +318,7 @@ main .main-img{
 }
 
 .main-img picture .mobil{
-    width: 100%;
-    max-width: 500px;
+    width: 145%;
     height: auto;
     
 }
