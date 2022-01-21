@@ -309,9 +309,23 @@ main .main-obj{
 
 main .main-img{
     width: 100%;
-    height: 30rem;
-    border: black solid 1px;
+    height: 35rem;
+    /* border: black solid 1px; */
     margin-top: 3rem;
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+}
+
+.main-img picture .mobil{
+    width: 100%;
+    height: auto;
+    
+}
+
+.mobiltab{
+    width: 100%;
+    
 }
 
 main .main-two-landing{
@@ -381,9 +395,18 @@ main .main-three-landing{
 
 .main-three-landing .main-three-img{
     width: 100%;
-    height: 30rem;
-    border: black solid 1px;
+    background-color: var(--whi);
+    height: auto;
     margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+.main-three-img video{
+    width: 101%;
+    max-width: 700px;
 }
 
 main .main-four-landing{
@@ -413,8 +436,69 @@ main .main-four-landing{
 .main-four-landing .main-four-img{
     width: 100%;
     height: 30rem;
-    border: black solid 1px;
+    /* border: black solid 1px; */
     margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+}
+
+.main-four-img .color{
+    width: calc((100% / 2) - 0px);
+    height: calc((100% / 1) - 0px);
+    /* border: black solid 1px; */
+}
+
+.main-four-img .uno{
+    background-color: #399cd7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.uno p{
+    align-self: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--whi);
+    padding-bottom: 2rem;
+}
+
+.main-four-img .dos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #222751;
+}
+
+.dos p{
+    align-self: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--whi);
+    padding-bottom: 2rem;
+}
+
+.main-four-img .tres{
+    background-color: #000;
+}
+
+.main-four-img .tres{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000;
+}
+
+.tres p{
+    align-self: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--whi);
+    padding-bottom: 2rem;
 }
 
 .main-four-landing .main-four-tit2 {
@@ -451,9 +535,22 @@ main .main-four-landing{
 
 .main-four-landing .main-four-img2{
     width: 100%;
-    height: 30rem;
-    border: black solid 1px;
+    height: auto;
+
     margin-top: 3rem;
+    overflow: hidden;
+}
+
+picture{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+picture img{
+    width: 100%;
+    max-width: 500px;
+    margin-top: -3rem;
 }
 
 main .main-five-landing{
@@ -485,9 +582,15 @@ main .main-five-landing{
 
 .m-f-img{
     width: 100%;
-    height: 30rem;
-    border: black solid 1px;
+    height: auto;
+    /* border: black solid 1px; */
     margin-top: 3rem;
+    overflow: hidden;
+}
+
+.m-f-img video{
+    width: 102%;
+    position: relative;
 }
 
 main .main-six-landing{
@@ -520,9 +623,19 @@ main .main-six-landing{
 
 .m-s-img{
     width: 100%;
-    height: 30rem;
-    border: black solid 1px;
+    height: auto;
     margin-top: 3rem;
+    overflow: hidden;
+    background-color: var(--whi);
+    display: flex;
+    justify-content: center;
+}
+
+.m-s-img img{
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    margin-top: 1rem;
 }
 
 main .main-seven-landing{
@@ -765,7 +878,6 @@ section div a{
     .main-four-landing .main-four-img{
         width: 100%;
         height: 30rem;
-        border: black solid 1px;
         margin-top: 3rem;
     }
     
@@ -804,7 +916,34 @@ section div a{
     .main-four-landing .main-four-img2{
         width: 100%;
         height: 30rem;
-        border: black solid 1px;
         margin-top: 3rem;
     }
+
+    .m-f-img{
+        width: 85%;
+    }
 }
+
+@media (min-width:1024px){
+    .main-three-landing .main-three-img{
+        width: 50%;
+        
+        background-color: var(--whi);
+        height: auto;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        
+    }
+    
+    .main-three-img video{
+        width: 101%;
+        max-width: 700px;
+    }
+
+    .m-f-img{
+        width: 46%;
+    }
+}
+
