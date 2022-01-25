@@ -309,9 +309,18 @@ main .main-obj{
 
 main .main-img{
     width: 100%;
-    height: 30rem;
-    border: black solid 1px;
-    margin-top: 3rem;
+    max-width: 500px;
+    height: 35rem;
+    /* border: black solid 1px; */
+    overflow: hidden;
+    display:flex;
+    justify-content: center;
+}
+
+.main-img picture .mobil{
+    width: 100%;
+    height: auto;
+    
 }
 
 main .main-two-landing{
@@ -451,9 +460,22 @@ main .main-four-landing{
 
 .main-four-landing .main-four-img2{
     width: 100%;
-    height: 30rem;
-    border: black solid 1px;
+    height: auto;
+
     margin-top: 3rem;
+    overflow: hidden;
+}
+
+picture{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+picture img{
+    width: 100%;
+    max-width: 500px;
+    margin-top: -3rem;
 }
 
 main .main-five-landing{
@@ -520,9 +542,19 @@ main .main-six-landing{
 
 .m-s-img{
     width: 100%;
-    height: 30rem;
-    border: black solid 1px;
+    height: auto;
     margin-top: 3rem;
+    overflow: hidden;
+    background-color: var(--whi);
+    display: flex;
+    justify-content: center;
+}
+
+.m-s-img img{
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    margin-top: 1rem;
 }
 
 main .main-seven-landing{
