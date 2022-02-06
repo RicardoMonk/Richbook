@@ -365,7 +365,7 @@ main .main-three-landing{
     width: 100vw;
     min-width: 320px;
     height: auto;
-    background-color: rgb(236, 247, 243);
+    
     /* border: black solid 1px; */
     display: flex;
     flex-direction: column;
@@ -390,9 +390,18 @@ main .main-three-landing{
 
 .main-three-landing .main-three-img{
     width: 100%;
-    height: 30rem;
-    border: black solid 1px;
+    background-color: var(--whi);
+    height: auto;
     margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+.main-three-img video{
+    width: 101%;
+    max-width: 700px;
 }
 
 main .main-four-landing{
@@ -422,8 +431,101 @@ main .main-four-landing{
 .main-four-landing .main-four-img{
     width: 100%;
     height: 30rem;
-    border: black solid 1px;
+    /* border: black solid 1px; */
     margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+}
+
+.main-four-img .color{
+    width: calc((100% / 5) - 0px);
+    height: calc((100% / 1) - 0px);
+    /* border: black solid 1px; */
+}
+
+.main-four-img .uno{
+    background-color: #DB864E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.uno p{
+    align-self: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--whi);
+    padding-bottom: 2rem;
+}
+
+.main-four-img .dos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #5E7461;
+}
+
+.dos p{
+    align-self: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--whi);
+    padding-bottom: 2rem;
+}
+
+.main-four-img .tres{
+    background-color: #000;
+}
+
+.main-four-img .tres{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2D2926;
+}
+
+.tres p{
+    align-self: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--whi);
+    padding-bottom: 2rem;
+}
+
+.main-four-img .cuatro{
+    background-color: #B6CFD0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cuatro p{
+    align-self: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--whi);
+    padding-bottom: 2rem;
+}
+
+.main-four-img .cinco{
+    background-color: #fbdbb2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cinco p{
+    align-self: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--black);
+    padding-bottom: 2rem;
 }
 
 .main-four-landing .main-four-tit2 {
@@ -507,9 +609,15 @@ main .main-five-landing{
 
 .m-f-img{
     width: 100%;
-    height: 30rem;
-    border: black solid 1px;
+    height: auto;
+    /* border: black solid 1px; */
     margin-top: 3rem;
+    overflow: hidden;
+}
+
+.m-f-img video{
+    width: 102%;
+    position: relative;
 }
 
 main .main-six-landing{
@@ -757,7 +865,6 @@ section div a{
         width: 100vw;
         min-width: 100%;
         height: auto;
-        background-color: rgb(236, 247, 243);
         /* border: black solid 1px; */
         display: flex;
         flex-direction: column;
@@ -797,7 +904,6 @@ section div a{
     .main-four-landing .main-four-img{
         width: 100%;
         height: 30rem;
-        border: black solid 1px;
         margin-top: 3rem;
     }
     
@@ -839,4 +945,32 @@ section div a{
         border: black solid 1px;
         margin-top: 3rem;
     }
+
+    .m-f-img{
+        width: 85%;
+    }
 }
+
+@media (min-width:1024px){
+    .main-three-landing .main-three-img{
+        width: 50%;
+        
+        background-color: var(--whi);
+        height: auto;
+        margin-top: 3rem;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        
+    }
+    
+    .main-three-img video{
+        width: 101%;
+        max-width: 700px;
+    }
+    .m-f-img{
+        width: 46%;
+    }
+}
+
+
