@@ -346,6 +346,7 @@ main .main-one-landing{
     height: auto;
     margin-top: 8rem;
     margin-bottom: 4rem;
+    
 }
 
 .main-name{
@@ -402,19 +403,22 @@ main .main-one-landing{
 }
 
 .main-wel p:first-of-type{
+    font-family: Helvetica;
+    font-size: 2.7rem;
     margin-top: 3rem;
+    
 }
 
 .main-wel > P{
-    text-align:justify;
+    text-align:center;
     font-family: sans-serif;
 }
 
 main section div h2{
     font-size: 2rem;
-    font-family:monospace;
+    font-family: Helvetica;
     margin-top: 3rem;
-    letter-spacing: 20px;
+    letter-spacing: 8px;
     text-align: center;
     margin-left: 20px;
 }
@@ -1435,7 +1439,7 @@ footer > div{
         font-size: 2rem;
         font-family:monospace;
         margin-top: 1rem;
-        letter-spacing: 20px;
+        letter-spacing: 8px;
         text-align: center;
         margin-left: 20px;
     }
