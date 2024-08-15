@@ -807,28 +807,46 @@ footer > div{
     margin: 2rem auto;
 }
 
-.footer-info{
-    align-self: center;
-    width: 200px;
-    min-width: 200px;
-    max-width: 525px;
-    height: 3rem;
-    /* border: var(--whi) solid 1px; */
-    margin-top: 1rem;
-    text-align: center;
+
+
+.main-btn-call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 2.5;
 }
 
-.footer-info a{
-    text-decoration: none;
-    font-family: Helvetica, sans-serif;
-    font-size: 2.5rem;
+.btn-call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 50px;
     color: var(--whi);
-    transition-duration: .5s;
+    border: var(--whi) solid 3px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: Helvetica, sans-serif;
+    margin-top: 2.5rem;
+    transition-duration: 0.4s;
+    text-decoration: none;
 }
 
-.footer-info a:hover{
-    color: var(--G-thir);
+.btn-call:hover{
+    background-color: var(--whi);
+    color: var(--black);
+  
 }
+
+section div a{
+    text-decoration: none;
+}
+
+
+
 
 .footer-logo{
     display: flex;
