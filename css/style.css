@@ -792,6 +792,7 @@ section .texcv{
 }
 
 footer{
+    margin-top: 8rem;
     padding-top: 8rem ;
     display: flex;
     flex-direction: column;
