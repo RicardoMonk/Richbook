@@ -344,9 +344,8 @@ main .main-one-landing{
     align-items: center;
     width: 100%;
     height: auto;
-    margin-top: 8rem;
-    margin-bottom: 4rem;
-    
+    margin-top: 10rem;
+    margin-bottom: 6rem;
 }
 
 .main-name{
@@ -360,7 +359,6 @@ main .main-one-landing{
 .main-name > h1{
     text-align: center;
     font-family: Helvetica, sans-serif;
-
     font-size: 5.5rem;
     display: flex;
     justify-content: center;
@@ -381,7 +379,7 @@ main .main-one-landing{
     width: 80%;
     height: auto;
     margin: 0 auto;
-    margin-top: 1.4rem;
+    margin-top: 4rem;
     justify-content: center;
 }
 
@@ -399,6 +397,7 @@ main .main-one-landing{
     width: 80%;
     max-width: 413px;
     height: auto;
+    margin-top: 4rem;
 
 }
 
