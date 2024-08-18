@@ -229,47 +229,59 @@ nav{
 }
 
 .nav-btn-love{
-    width: 6rem;
-    height: 8rem; /*antes auto, ahora 8rem y por considerar*/
-    /*border: white solid 1px;*/
+    width: 7.2rem;
+    height: 8rem; 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding-top: 5px;
+    padding-top: 5px;    
+    margin-top: -2.1rem;
+    font-family: Helvetica;
 }
 
-.fa-heart{
-    font-size: 3.8rem;
-    cursor: pointer;
-    -webkit-text-stroke: 2px var(--whi);
-    color: transparent; 
+
+/*   estilo btn cambio de idioma   */
+
+ .en{
+    color: #000000;
+    margin-top: -2remrem;
+ }
+
+.check{
+    position: relative;
+    width: 50px;
+    margin-top: -3.5rem;
 }
 
-.fa-heart:hover{
-    color: var(--whi);
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.button{
-    transition-duration: 0.4s;
-    background-color: transparent;
-    border-style: none;
-}
-
-#incrementText{
+.check:before{
+    content: '';
     position: absolute;
-    top: 12px;
-    margin-left: 39px;
-    justify-content: center;
-    font-size: 1.1rem;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--quaternary-color);
-    border-radius: 20px;
-    padding: 3px 3px;
-    text-align: center;
+    width: 50px;
+    height: 25px;
+    background: var(--whi);
+    border-radius: 25px;
+}
+
+.check:after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: var(--whi);
+    border-radius: 25px;
+    transition: 0.25s;
+    border: 2px solid var(--black);
+    box-sizing: border-box;
+}
+
+.check:checked:after{
+    left: 25px;
+    border: var(--black) solid 2px;
+}
+
+.check:checked:before{
+    background: var(--black);
 }
 
 main .main-one-landing{

@@ -7,15 +7,19 @@ burgerMenu.addEventListener('click', function(){
     show.classList.toggle("show");
 })
 
-/*Efecto contador de click*/
-function incrementButton(){
-    var element = document.getElementById('incrementText');
-    var value = element.innerHTML;
+/*btn cambio de idioma*/
 
-    ++value;
+var check=document.querySelector(".check");
+check.addEventListener('click',idioma);
 
-    console.log(value);
-    document.getElementById('incrementText').innerHTML = value;
+function idioma(){
+    let id=check.checked;
+    if(id==false){
+        location.href="../Esp/index.html";
+    }
+    else{
+        location.href="../index.html";
+    }
 
 }
 
