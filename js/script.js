@@ -26,15 +26,62 @@ window.addEventListener("load", function() {
     loader.className += " hidden";
 });
 
-/*Aparicion del Efecto contador de click
+// checkbox buton idiom
 
-document.getElementById("btn1").addEventListener("click",function(){
-    var box1=document.getElementById("incrementText");
-    if(box1.style.display=="none"){
-        box1.style.display="block";
+// Al cargar la página, recupera el estado del checkbox y ajusta los textos
+window.addEventListener('load', function() {
+    const checkboxState = localStorage.getItem('checkboxState'); // Recupera el estado del checkbox desde localStorage
+    const checkbox = document.querySelector('.check'); // Selecciona el checkbox
+
+    if (checkboxState === 'true') { // Si el estado es 'true'
+        checkbox.checked = true; // Marca el checkbox como seleccionado
+    } else {
+        checkbox.checked = false; // De lo contrario, no lo marca
     }
-})
-No se logró que al ingresar a la web el objeto estilado estubiera con display none posterior a este codigo display block(luego lo revisamos)*/
+
+    // Selecciona todos los elementos con las clases .textBox1 y .textBox2
+    const textBoxes1 = document.querySelectorAll('.textBox1');
+    const textBoxes2 = document.querySelectorAll('.textBox2');
+    
+    // Recorre todos los pares de elementos
+    textBoxes1.forEach(function(textBox1, index) {
+        const textBox2 = textBoxes2[index]; // Selecciona el par correspondiente
+        
+        if (checkbox.checked) { // Si el checkbox está seleccionado
+            textBox1.style.display = 'none'; // Oculta el texto 1
+            textBox2.style.display = 'block'; // Muestra el texto 2
+        } else {
+            textBox1.style.display = 'block'; // Muestra el texto 1
+            textBox2.style.display = 'none'; // Oculta el texto 2
+        }
+    });
+});
+
+// Código que ya tienes para guardar el estado del checkbox cuando cambia
+document.querySelectorAll('.check').forEach(function(checkbox) {
+    checkbox.addEventListener('change', function() {
+        // Guardar el estado del checkbox en LocalStorage
+        localStorage.setItem('checkboxState', checkbox.checked);
+
+        // Selecciona todos los elementos con las clases .textBox1 y .textBox2
+        const textBoxes1 = document.querySelectorAll('.textBox1');
+        const textBoxes2 = document.querySelectorAll('.textBox2');
+        
+        // Recorre todos los pares de elementos
+        textBoxes1.forEach(function(textBox1, index) {
+            const textBox2 = textBoxes2[index]; // Selecciona el par correspondiente
+            
+            if (checkbox.checked) {
+                textBox1.style.display = 'none';
+                textBox2.style.display = 'block';
+            } else {
+                textBox1.style.display = 'block';
+                textBox2.style.display = 'none';
+            }
+        });
+    });
+});
+
 
 /*Efecto de textos animados*/
 let animux = document.querySelectorAll(".animux");
